@@ -1,0 +1,274 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1{
+    color: white;
+font-weight: 900;
+text-align: center;
+}
+
+#lic_img_div
+{
+    height: 400px;
+width: 330px;
+margin-top: 5px;
+background: rgba(143, 66, 66, 0.202);
+float: right;
+}
+
+@media screen and (min-width:200px) and (max-width:768px) {
+
+    #lic_img_div {
+        float: none;
+        
+
+    }
+
+    
+}
+#lic_img_tag
+    {
+        width: 100%;
+height: 100%;
+    }
+#lic_details_div
+{
+    margin-top: 25px;
+    height: 400px;
+    width: 330px;
+    background-color: #9acd326e;
+    border-radius: 16px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#lic_person_photo_div
+{
+    width: 96px;
+height: 104px;
+background: rgba(10, 10, 10, 0);
+margin-top: -100px;
+margin-left: 1px;
+
+}
+#lic_person_name
+{
+    margin-top: -85px;
+    color: white;
+font-weight: 900;
+padding: 0px;
+margin-left: 119px;
+font-size: 13px;
+}
+#lic_person_mobile
+{ color: white;
+    margin-left: 121px;
+    font-weight: 900;
+margin-bottom: -2px;
+margin-top: -9px;
+float: left;
+
+}
+#lic_agent_code
+{ color: white;
+    float: left;
+    font-weight: 900;
+margin-left: -108px;
+margin-top: 11px;
+}
+#lic_person_email
+{
+    margin-left: 121px;
+margin-top: 25px;
+font-weight: 700;
+color: white;
+font-size: 10px;
+}
+
+#lic_details_div .row
+{   
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*minus plus*/
+.minus_plus_btn
+{
+  height: 25px;
+  width: 25px;
+  background: #d7b70a96;
+  border-radius: 11px;
+  padding: 0%;
+  margin: 0%;
+  color: black;
+  margin-left: -4px;
+  border: none;
+}
+.minus_plus_btn:hover{
+
+  background: #8b7f3596;
+
+}
+
+.input{
+    width: 50px;
+  border-right: none;
+  border-left: none;
+  height: 25px;
+  font-weight: 700;
+  background: #00ff9f;
+  border: none;
+  margin-left: -4px;
+  }
+
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/*minus plus enf*/
+
+.lic_input_field
+{
+    text-align: center;
+    border: none;
+border-top-left-radius: 30px;
+border-bottom-left-radius: 30px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 23px;
+    width: 79%;
+font-weight: 900;
+margin-top: 23px;
+margin-left: 5px;
+}
+
+.lic_color_field
+{
+    width: 64px;
+    margin: 0px;
+      margin-top: 0px;
+      margin-left: 0px;
+    padding: 0px;
+    border: none;
+    margin-top: 23px;
+    margin-left: -2px;
+    height: 24px;
+}
+
+#choose_photo_lable
+{
+    background: #ff009b;
+    background-color: rgb(255, 0, 155);
+  width: 26%;
+  border-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+  border-top-right-radius: 19px;
+  border-bottom-right-radius: 19px;
+  padding: 8px;
+  color: white;
+  font-size: 9px;
+  font-weight: 900;
+  border-top-right-radius: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0pc;
+  cursor: pointer;
+  font-weight: 686;
+  
+  font-weight: 900;
+}
+#choose_photo_lable:hover{
+    background-color: #80741742;
+}
+
+#lic_person_img_tag
+{
+    width: 100%;
+    height: 100%;
+}
+.select
+{
+    width: 20%;
+    border: none;
+    height: 28px;
+    background: #d7b70a96;
+    font-weight: 900;
+    position: cu;
+    cursor: pointer;
+    font-size: 11px;
+}
+.select:hover{
+    background: #8b7f3596;
+}
+
+
+#lic_validate_download_btn
+{
+    width: 100%;
+    float: right;
+    padding: 8px;
+    background: #f7ff00;
+    font-weight: 900;
+    border: none;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    float: left;
+    color: black;
+  
+}
+
+#lic_validate_download_btn:hover{
+    background-color: #70722b;
+}
+#error
+{
+    padding: 0px;
+margin: 0px;
+  margin-bottom: 0px;
+text-align: center;
+color: red;
+font-weight: 900;
+margin-bottom: -20px;
+font-size: 14px;
+}
+
+/*ads elewments*/
+#ads_container
+{
+    height: 404px;
+border: 1px groove aliceblue;
+display: none;
+}
+#main_download_btn
+{
+    width: 100%;
+    float: right;
+    padding: 8px;
+    background: #f7ff00;
+    font-weight: 900;
+    border: none;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    float: left;
+    color: black;
+    display: none;
+   
+}
+
+#main_download_btn:hover{
+    background-color: #70722b;
+}

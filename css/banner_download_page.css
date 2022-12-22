@@ -1,0 +1,382 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+font-weight: 900;
+text-align: center;
+}
+   #Img_div
+   {
+    height:400px;
+    background:red;
+    border:1px solid white;
+    width:330px;
+    padding:0%;
+    margin-left: 2%;
+    margin-top: 6px;
+   }
+   .img{
+    height:100%;
+    width:100%;
+   }
+   .details_div
+   {
+    width: 330px;
+height: 409px;
+text-align: center;
+background-color: #94c71d4b;
+margin-left: 2%;
+margin: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+margin-left: 0px;
+padding: 0px;
+
+margin-top: 6px;
+margin-left: 7px;
+   }
+   .name_input
+   {
+    height: 24px;
+    width: 80%;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    background-color: #fffb0024;
+    color: #020202;
+    margin-bottom: 4px;
+    border-radius: 13px;
+   }
+   #banner_ads_btn{
+    color:black;
+    font-weight: 900;
+    width: 100%;
+    padding: 2%;
+    border-radius: 30px;
+    border: 2px inset #d7b70a96;
+    border: 0%;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0;
+    background: #d7b70a96;
+    display: none;
+   }
+#banner_ads_btn:hover{
+  background-color:black;
+  color:#ccff00;
+  border: 2px inset #ccff00;
+}
+#banner_ads_btn:active{
+  transform: scale(0.900);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.photo_div
+{
+  background-color: rgba(20, 20, 18, 0);
+height: 118px;
+width: 97px;
+margin-top: -118px;
+
+position: absolute;
+}
+.details_result
+{
+color: rgb(235, 235, 235);
+position: absolute;
+margin-left: 150px;
+font-weight: 900;
+
+font-size: 18px;
+font-family: Verdana, sans-serif;
+margin-top: -51px;
+}
+#choose_photo
+{
+  display: none;
+}
+.photo_upload_btn
+{
+  background: #d7b70a96;
+  background-color: rgba(215, 183, 10, 0.59);
+color: white;
+font-size: 10px;
+border-radius: 30px;
+cursor: pointer;
+margin-top: 5%;
+padding: 6px;
+width: 90%;
+}
+.photo_upload_btn:hover{
+  background-color: #80a10780;
+}
+#photo{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.details_div table{
+width: 100%;
+margin-bottom: -8px;
+}
+.details_div table tr td{
+  width: 50%;
+  border: 1px Groove white;
+  text-align: center;
+}
+.details_div table tr
+{
+  
+  height: 55px;
+ 
+}
+.minus_plus_btn
+{
+  height: 25px;
+  width: 25px;
+  background: #d7b70a96;
+  border-radius: 11px;
+  padding: 0%;
+  margin: 0%;
+  color: black;
+  margin-left: -4px;
+}
+.minus_plus_btn:hover{
+
+  background: #8b7f3596;
+
+}
+.name_number_input{
+  width: 50px;
+border-right: none;
+border-left: none;
+height: 25px;
+font-weight: 700;
+background: #00ff9f;
+margin-left: -4px;
+}
+#color_picker
+{
+    width: 25px;
+margin-top: -1px;
+cursor: pointer;
+color: white;
+border: 1px groove;
+height: 25px;
+margin-top: 21px;
+float: left;
+
+margin-right: 38px;
+}
+#color_picker_more_text
+{
+  width: 25px;
+margin-top: -1px;
+cursor: pointer;
+color: white;
+border: 1px groove;
+height: 25px;
+
+float: left;
+margin-right: 38px;
+}
+#shadow_color
+{
+    width: 25px;
+    cursor: pointer;
+    color: white;
+    border: 1px groove;
+    height: 25px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 38px;
+}
+#remove_shadow
+{
+    width: 80%;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    font-size: 9px;
+    font-weight: 800;
+    color: white;
+    background: #d7b70a96;
+      background-color: rgba(215, 183, 10, 0.59);
+    border: none;
+    padding: 4px;
+}
+#remove_shadow:hover
+{
+  background-color: #80a10780;
+}
+
+#photo_border
+{
+  width: 86px;
+font-size: 10px;
+background: #d7b70a96;
+  background-color: rgba(215, 183, 10, 0.59);
+border: none;
+margin-top: 2px;
+font-weight: 900;
+color: white;
+height: 26px;
+float: left;
+height: 25px;
+}
+#photo_border:hover
+{
+  background-color: #80a10780;
+}
+
+#photo_border_remove
+{
+  float: right;
+  color: red;
+  background: black;
+    background-color: black;
+  background-color: black;
+  border: none;
+  margin-bottom: 0px;
+  width: 40px;
+  height: 24px;
+  margin-top: 2px;
+
+
+
+}
+
+#photo_border_remove:hover
+{
+  background-color: #80a10780;
+}
+#photo_border_color
+{
+  width: 40px;
+  height: 25px;
+ 
+  margin-top: 2px;
+  border: none;
+  cursor: pointer;
+  margin-left: -3px;
+  
+}
+
+#photo_border_size
+{
+  width: 90%;
+height: 20px;
+margin-top: 2px;
+border: none;
+cursor: pointer;
+background: #d7b70a96;
+  background-color: rgba(215, 183, 10, 0.59);
+color: white;
+font-weight: 700;
+font-size: 11px;
+text-align: center;
+margin-bottom: 2px;
+}
+
+#photo_border_size:hover
+{
+  background-color: #80a10780;
+}
+
+input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+  *
+  {
+    margin:0%;
+    padding:0%;
+  }
+  #google_ads_download_btn_div{
+    color: white;
+    height: 405px;
+    width: 73%;
+    background-color: #1f201d87;
+    border: 3px groove greenyellow;
+    text-align: center;
+    margin-left: 11%;
+    margin-top: 18%;
+    margin-bottom: 33%;
+    display: none;
+    position: absolute;
+    border-radius:10px;
+    z-index: 100;
+  }
+  @media only screen and (max-width: 687px) {
+    
+    #google_ads_download_btn_div
+    {
+      color: black;
+margin-top: 685px;
+width: 95%;
+margin-left: 3%;
+
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    
+    #google_ads_download_btn_div
+    {
+width: 95%;
+margin-left: 2%;
+    }
+  }
+  #banner_download_main_button
+  {
+    display:none;
+  }
+  #use_photo{
+    color: red;
+    font-size:18px;
+font-weight: 900;
+text-align: center;
+  }
+
+/*download btn css*/
+  .download_button {
+    text-decoration: none;
+    background-color: #ccff00;
+    font-size: 100%;
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    display: inline-block;
+    padding: 2% 3%;
+    border-radius: 30px;
+    z-index: 10;
+    margin-bottom: 0%;
+    border: 2px inset #ccff00;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.2s all;
+    margin-top: 3%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.download_button:hover {
+    color: #ccff00;
+
+    background-color: black;
+    text-decoration: none;
+    border: 2px inset #ccff00;
+}
+
+.download_button:active {
+    transform: scale(0.300);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+
+}
+
+/*download btn css*/

@@ -1,0 +1,44 @@
+.footer
+{
+   
+  
+  position: absolute;
+ margin-top: 15%;
+  width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #483f3f;
+    text-align: center;
+    border: 1px groove white;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top-left-radius: 85px;
+    border-top-right-radius: 85px;
+  
+  
+ }
+.footer p a{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.footer p a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#social_p a{
+    font-size: 21px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  #social_p a:hover
+  {
+    background-color: #483f3f;
+  }
+
+  
